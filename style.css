@@ -1,0 +1,10 @@
+h1, h2, p, button {
+    color: blue;
+    
+}
+
+#quiz {
+    display: flex;
+    flex-direction: column;
+
+}
