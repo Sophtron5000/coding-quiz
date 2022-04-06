@@ -1,38 +1,46 @@
 //GIVEN I am taking a code quiz
 var timerEl = document.getElementById('timer');
 // var time = questions.length * 15;
-var myTimer = 1000 * 120;
-
+var myTimer = 120;
+var questionIndex = 1
 
 // WHEN I click the start button, (eventListener)
-var start = document.querySelector('#quiz')
+var start = document.querySelector('#start')
 var mode = 'end quiz'
 //120 sec. timer starts setTimer() (in code drills)
 start.addEventListener('click', function startQuiz() {
 
-    var x = setInterval(function() {
+    setInterval(function () {
+        console.log(myTimer--)
 
-        
-    }
-    timerEl.textContent = myTimer
-    // setTimeout(timer, 1000 * 120);
-    // document.getElementById('#timer')
 
-    // function timer(timeStart){
-    //     var timeStart = 12000
-    //     for (var i = 120000, i =< timeStart.length; i--)
-    // } timer[i]
+        // display timer to the page every second as well so it shows up (start with a 
+        //if statement to stop timer clearInterval
+    }, 1000)
+//getNextQuestion()
     //questions become visible(hidden numbered card activity) for loop array of questions
-    // function question1(str) {
-    //     document.getElementById("#question").innerHTML = "What does 'getElementByID' do?"
-    //     document.getElementById('#answer1')
-    // }
-    // div.append(div)
+
     // //if question is answered correctly (for loop + if else)
     // //present next question
     // //else subtract time from the clock 
-    // setTimeout(quiz, 1000 * 120);
+
 })
+// function question1(str) {
+//                 document.getElementById("#question").innerHTML = "What does 'getElementByID' do?"
+//                 document.getElementById('#answer1')
+//             }
+//             div.append(div)
+
+//questions become visible(hidden numbered card activity) for loop array of questions
+function question1(str) {
+    document.getElementById("#question").innerHTML = "What does 'getElementByID' do?"
+    document.getElementById('#answer1')
+}
+// //if question is answered correctly (for loop + if else)
+// //present next question
+// //else subtract time from the clock 
+
+
 
 // function that starts the quiz and then it calls it calls the next function 
 function startQuiz() {
@@ -47,12 +55,12 @@ function startQuiz() {
 
 function getNextQuestion() {
     var currentQ = questions[questionIndex]
-
+        //questionIndex++
 
     // loop through your questions and check for right 
-currentQ.choices.forEach(function(choice, i){
+    currentQ.choices.forEach(function (choice, i) {
 
-})
+    })
 
 }
 
