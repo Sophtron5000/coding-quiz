@@ -4,7 +4,9 @@
 
 Here we have a coding quiz. It begins when the user clicks the start button. A timer begins and the first question appears. If the user answers the question correctly they will advance to the next question, however, answer incorrectly and the time will decrease. Once the time has run out or all questions are answered correctly, the user will be asked to enter their initials to be stored locally for future retrieval. As my knowledge of javascript increase I plan on adding more features. 
 
+## Features
 
+Questions and High Score are in separate JavaScript documents and organized in an array. This is for ease of the reader, as well as ease of updating/changing each questions.    
 
 
 Sophia Custodia
