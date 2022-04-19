@@ -2,7 +2,13 @@
 
 ## Description 
 
-Here we have a coding quiz. It begins when the user clicks the start button. A timer begins and the first question appears. If the user answers the question correctly they will advance to the next question, however, answer incorrectly and the time will decrease. Once the time has run out or all questions are answered correctly, the user will be asked to enter their initials to be stored locally for future retrieval. As my knowledge of javascript increase I plan on adding more features. 
+Here we have a coding quiz. It begins when the user clicks the start button. A timer begins and the first question appears. If the user answers the question correctly they will advance to the next question, however, answer incorrectly and the time will decrease. Once the time has run out or all questions are answered correctly, the user will be asked to enter their initials to be stored locally for future retrieval. As my knowledge of javascript increase I plan on adding more features.
+
+[Coding Quiz](https://sophtron5000.github.io/coding-quiz/)
+
+## Usage
+
+![Coding Quiz](./04-web-apis-homework-demo.gif)
 
 ## Features
 
